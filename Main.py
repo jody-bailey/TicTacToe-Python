@@ -32,6 +32,8 @@ def winner():
         return True
     elif player_board[2] == 'X' and player_board[5] == 'X' and player_board[8] == 'X':
         return True
+    elif player_board[3] == 'X' and player_board[5] == 'X' and player_board[7] == 'X':
+        return True
     elif player_board[0] == 'O' and player_board[1] == 'O' and player_board[2] == 'O':
         return True
     elif player_board[0] == 'O' and player_board[4] == 'O' and player_board[8] == 'O':
@@ -45,6 +47,8 @@ def winner():
     elif player_board[1] == 'O' and player_board[4] == 'O' and player_board[7] == 'O':
         return True
     elif player_board[2] == 'O' and player_board[5] == 'O' and player_board[8] == 'O':
+        return True
+    elif player_board[3] == 'O' and player_board[5] == 'O' and player_board[7] == 'O':
         return True
     else:
         return False
